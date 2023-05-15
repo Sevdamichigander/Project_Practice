@@ -1,10 +1,10 @@
-package day3_Okul_AbdullahHocaile;
+package day3_4_Okul_AbdullahHocaile;
 
 public class Kisi {
     /*
-    Öğretmen: Ad-Soyad,  kimlik No, yaş
-    Öğrenci:  Ad-Soyad,  kimlik No, yaş
-     */
+     Öğretmen: Ad-Soyad,  kimlik No, yaş
+     Öğrenci:  Ad-Soyad,  kimlik No, yaş
+      */
     private String ad;
     private String sad;
     private String tcNo;
@@ -54,11 +54,10 @@ public class Kisi {
 
     @Override
     public String toString() {
-        return "ad='" + ad + '\'' +
+        return  "ad='" + ad + '\'' +
                 "sad='" + sad + '\'' +
                 "tcNo='" + tcNo + '\'' +
-                "yas=" + yas;
-
+                "yas=" + yas ;
 
     }
 }

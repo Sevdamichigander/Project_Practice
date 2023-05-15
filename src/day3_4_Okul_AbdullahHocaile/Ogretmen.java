@@ -1,4 +1,4 @@
-package day3_Okul_AbdullahHocaile;
+package day3_4_Okul_AbdullahHocaile;
 
 public class Ogretmen extends Kisi{
     //Öğretmen: Ad-Soyad,  kimlik No, yaş, bölüm, ve sicil No
