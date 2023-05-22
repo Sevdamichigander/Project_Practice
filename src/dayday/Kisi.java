@@ -1,10 +1,11 @@
-package day3_4_Okul_AbdullahHocaile;
+package dayday;
 
 public class Kisi {
     /*
-     Öğretmen: Ad-Soyad,  kimlik No, yaş
-     Öğrenci:  Ad-Soyad,  kimlik No, yaş
-      */
+        Öğretmen: Ad-Soyad,  kimlik No, yas
+        Öğrenci:  Ad-Soyad,  kimlik No, yas
+
+     */
     private String ad;
     private String sad;
     private String tcNo;
@@ -19,6 +20,8 @@ public class Kisi {
         this.tcNo = tcNo;
         this.yas = yas;
     }
+
+
 
     public String getAd() {
         return ad;
@@ -53,7 +56,7 @@ public class Kisi {
     }
 
     @Override
-    public String toString() { // butun ozelliklerin ekranda yazilabilmesi icin toString yaptik. Formati degistirebiliyoruz
+    public String toString() {
         return "Kisi{" +
                 "ad='" + ad + '\'' +
                 ", sad='" + sad + '\'' +
@@ -62,4 +65,3 @@ public class Kisi {
                 '}';
     }
 }
-
